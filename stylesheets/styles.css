@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);*/
 
 body {
   padding:50px;
@@ -180,6 +180,14 @@ section {
   padding-bottom:50px;
 }
 
+section div#download {
+  width: 135px;
+  height: 40px;
+  margin: 50px auto;
+  display: block;
+  background: url('images/download.png') no-repeat;
+}
+
 small {
   font-size:11px;
 }
@@ -268,3 +276,4 @@ footer {
     color:#444;
   }
 }
+
